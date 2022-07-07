@@ -1,0 +1,136 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Pertemuan1Baru\\Pertemuan1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\Common.csproj",
+        "projectName": "LearnOpenTK.Common",
+        "projectPath": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\Aldo Cahyadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aldo Cahyadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Pertemuan1Baru\\Pertemuan1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Pertemuan1Baru\\Pertemuan1.csproj",
+        "projectName": "Pertemuan1",
+        "projectPath": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Pertemuan1Baru\\Pertemuan1.csproj",
+        "packagesPath": "C:\\Users\\Aldo Cahyadi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Pertemuan1Baru\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Aldo Cahyadi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Aldo Cahyadi\\source\\repos\\Grafkom1\\Common\\Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "OpenTK": {
+              "target": "Package",
+              "version": "[4.7.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
